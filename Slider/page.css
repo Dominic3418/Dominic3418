@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600;700;800;900&family=Roboto+Serif:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', monospace;
+    
+}
+
+body{
+    background-color: var(rgb(3, 3, 59));
+}
+header{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: calc(5rem + 1rem);
+    top: 10px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header .nav-bar{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+    transition: 0.3s ease;
+
+}
+
+.menu, .close{
+    display: none;
+}
+
+.nav-bar .logo{
+    font-weight: 600;
+    color: black;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.navigation .nav-items a{
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+    margin: 15px;
+
+}
+
+.navigation .nav-items a i{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
